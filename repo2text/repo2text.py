@@ -44,7 +44,7 @@ def main():
     # Determine if the first argument is a URL or an extension
     if sys.argv[1].startswith('.'):
         if len(sys.argv) != 3:
-            print("Usage: python script.py [<extension>] <git url>")
+            print("Usage: repo2text <extension> <git url>")
             sys.exit(1)
         extension = sys.argv[1].strip('.').lower()
         repo_url = sys.argv[2]
