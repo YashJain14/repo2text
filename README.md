@@ -42,5 +42,3 @@ Contributions are welcome! If you have suggestions for improvements or bug fixes
 ## License
 
 `repo2text` is released under the MIT License. See the `LICENSE` file for more details.
-```
-
