@@ -39,7 +39,7 @@ def repo_to_text(repo_url, extension=None):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python script.py [<extension>] <git url>")
+        print("Usage: repo2text [<extension>] <git url>")
         sys.exit(1)
     # Determine if the first argument is a URL or an extension
     if sys.argv[1].startswith('.'):
